@@ -7,9 +7,8 @@ This is a demo of the [Jekyll Gallery](http://lexoyo.me/jekyll-gallery/).
 
 Here are your galleries:
 
-<ul>
 {% for gallery in site.galleries %}
-<li><a href="{{ site.github.url }}{{ gallery.url }}">{{ gallery.title }}</a></li>
+<iframe src="{{ site.github.url }}{{ gallery.url }}" width="800px" height="600px" style="border: solid 1px; margin: auto; display: block;"></iframe>
 {% endfor %}
 
 
