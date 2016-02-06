@@ -1,4 +1,11 @@
+defaults:
+  -
+    scope:
+      path: "_slides" 
+    values:
+      layout: "iframe"
+
 collections:
-  galleries:
+  slides:
     output: true
 
