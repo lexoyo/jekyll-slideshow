@@ -2,6 +2,7 @@
 layout: iframe
 title: My pictures gallery
 item: 1
+auto: true
 loop: true
 ---
 
