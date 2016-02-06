@@ -13,7 +13,14 @@
 {{ content }}
 <script type="text/javascript"> 
     $(document).ready(function() {
-        $("ul").lightSlider({{ page | jsonify }});
+      $("ul").lightSlider({
+        "item": {{ page.item | default: 1 }},
+        "loop": {{ page.loop | default: false }},
+        "speed": {{ page.speed | default: 600 }},
+        "vertical": {{ page.vertical | default: false }},
+        "auto": {{ page.auto | default: true }},
+        "pauseOnHover": {{ page.pauseOnHover | default: false }}
+      });
     });
 </script>
 </body>
