@@ -17,4 +17,6 @@ At the core of this gallery there is work from other people:
 2. Edit the file `_galleries/my-pics1.md` with [Prose, a visual editor which plugs into Github](http://prose.io/), add images in the list and save the file
 3. Check the changes on `http://yourgithubusername.github.io/jekyll-gallery/`
 
+You can make more galleries by adding `.md` files in `_galleries`, [like this one](galleries)
+
 

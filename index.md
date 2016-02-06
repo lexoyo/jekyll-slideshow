@@ -7,7 +7,7 @@ Here are your galleries:
 
 <ul>
 {% for gallery in site.galleries %}
-<li><a href="{{ gallery.url }}">{{ gallery.title }}</a></li>
+<li><a href="{{ site.github.url }}{{ gallery.url }}">{{ gallery.title }}</a></li>
 {% endfor %}
 
 
