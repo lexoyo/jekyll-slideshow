@@ -13,7 +13,7 @@ At the core of this project there is work from other people:
 
 ## user guide
 
-1. Fork this repo with the button in the upper right corner of this page
+1. [Fork this code on github](https://github.com/lexoyo/jekyll-slideshow/fork)
 2. Edit the file `_slides/my-pics1.md` with [Prose](http://prose.io/), add images in the list and save the file
 3. Check the changes on `http://yourgithubusername.github.io/jekyll-slideshow/`
 
@@ -23,4 +23,14 @@ You can make more slideshows by adding `.md` files in `_slides`, [like this one]
 * ![A nice pic of mine](my-pics1/pic1.jpg)
 * ![Another nice pic of mine](my-pics1/pic2.jpg)
 ```
+
+In the meta data of a slideshow's `.md` file, you can use these params, which come from [lightSlider's doc](https://github.com/sachinchoolur/lightslider#play-with-settings)
+
+* item
+* loop
+* speed
+* pause
+* vertical
+* auto
+* pauseOnHover
 
