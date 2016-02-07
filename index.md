@@ -14,7 +14,7 @@ Here are your slides, one per `.md` file in the folder `_slides`:
 <p>
 <strong>To embed this slide in a website, add this code to your page:</strong>
 <textarea style="width: 800px; margin: auto; display: block;">
-&lt;iframe src="[baseurl]{{ site.github.url }}{{ slide.url }}" width="100%" height="100%" style="border: none;"&gt;&lt;/iframe&gt;
+&lt;iframe src="{{ site.github.url }}{{ slide.url }}" width="100%" height="100%" style="border: none;"&gt;&lt;/iframe&gt;
 </textarea>
 </p>
 </div>
