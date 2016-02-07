@@ -24,10 +24,11 @@ You can make more slideshows by adding `.md` files in `_slides`, [like this one]
 * ![Another nice pic of mine](my-pics1/pic2.jpg)
 ```
 
-In the meta data of a slideshow's `.md` file, you can use these params, which come from [lightSlider's doc](https://github.com/sachinchoolur/lightslider#play-with-settings)
+In the meta data of a slideshow's `.md` file, you can use these params, which come from [lightSlider's doc](http://sachinchoolur.github.io/lightslider/settings.html)
 
 * item
 * loop
+* mode (slide or fade)
 * speed
 * pause
 * vertical
