@@ -1,8 +1,8 @@
 # Jekyll Slideshow
 
-Jekyll Slideshow is a slideshow solution to help you display your pictures in your website. This is mainly intended to embed slideshow in static websites, i.e. websites generated with [static website generators](https://www.staticgen.com/) such as [Jekyll](http://jekyllrb.com/) and [Silex](http://www.silex.me).
+Jekyll Slideshow helps you display your pictures in a website. It is mainly intended to embed slideshows in static websites, i.e. websites generated with [static website generators](https://www.staticgen.com/) such as [Jekyll](http://jekyllrb.com/) and [Silex](http://www.silex.me).
 
-You can use [Prose, a visual editor which plugs into Github](http://prose.io/) and host it on Github Pages for free.
+You can use [Prose, a visual editor which plugs into Github](http://prose.io/) and host it on Github Pages for free. It is not a Jekyll plug-in but a set of layouts and collection. 
 
 [Here is a demo](http://lexoyo.me/jekyll-slideshow/).
 
@@ -34,4 +34,3 @@ In the meta data of a slideshow's `.md` file, you can use these params, which co
 * vertical
 * auto
 * pauseOnHover
-
