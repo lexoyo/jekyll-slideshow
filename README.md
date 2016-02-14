@@ -34,3 +34,22 @@ In the meta data of a slideshow's `.md` file, you can use these params, which co
 * vertical
 * auto
 * pauseOnHover
+* controls
+* pager
+
+You can also style and animate the elements on the slides with the "style" property in the front matter data
+
+```
+style:
+  body:
+    duration: 10000
+    init:
+      position: absolute
+      bottom: 0
+      width: 200%
+    from:
+      left: 0
+    to:
+      left: -100%
+```
+

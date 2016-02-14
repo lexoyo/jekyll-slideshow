@@ -4,8 +4,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="{{ site.github.url }}/lightslider/dist/js/lightslider.js"></script>
   <style>
+    body {
+      overflow: hidden;
+      margin: 0;
+    }
     img {
-      width: 100%;
+      min-width: 100%
     }
   </style>
 </head>
@@ -21,9 +25,32 @@
         "pause": {{ page.pause | default: 2000 }},
         "vertical": {{ page.vertical | default: false }},
         "auto": {{ page.auto | default: false }},
-        "pauseOnHover": {{ page.pauseOnHover | default: false }}
+        "pauseOnHover": {{ page.pauseOnHover | default: false }},
+        "pager": {{ page.pager | default: true }},
+        "controls": {{ page.cotrols | default: true }},
       });
     });
+    {% for elem in page.style %}
+      function startAnim_{{ elem[0] }}() {
+        $("{{ elem[0] }}")
+        {% for style in elem[1].init %}
+          .css("{{ style[0] }}", "{{ style[1] }}")
+        {% endfor %}
+        {% if elem[1].to && elem[1].from %}
+          .animate({
+            {% for style in elem[1].to %}
+              "{{ style[0] }}": "{{ style[1] }}",
+            {% endfor %}
+            }, {{ elem[1].duration | default: 2000 }})
+          .animate({
+            {% for style in elem[1].from %}
+              "{{ style[0] }}": "{{ style[1] }}",
+            {% endfor %}
+            }, {{ elem[1].duration | default: 2000 }}, startAnim_{{ elem[0] }})
+        {% endif %}
+      }
+      startAnim_{{ elem[0] }}();
+    {% endfor %}
 </script>
 </body>
 </html>
