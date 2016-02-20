@@ -2,7 +2,7 @@
 
 Jekyll Slideshow helps you display your pictures in a website. It is mainly intended to embed slideshows in static websites, i.e. websites generated with [static website generators](https://www.staticgen.com/) such as [Jekyll](http://jekyllrb.com/) and [Silex](http://www.silex.me).
 
-You can use [Prose, a visual editor which plugs into Github](http://prose.io/) and host it on Github Pages for free. It is not a Jekyll plug-in but a set of layouts and collection. 
+You can use Github to edit slideshows and upload pictures, Github Pages will automatically generate your slideshows and host it online for free. It is not a Jekyll plug-in but a set of layouts and collection. 
 
 [Here is a demo](http://lexoyo.me/jekyll-slideshow/).
 
