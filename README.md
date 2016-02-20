@@ -1,8 +1,8 @@
 # Jekyll Slideshow
 
-Jekyll Slideshow helps you display your pictures in a website. It is mainly intended to embed slideshows in static websites, i.e. websites generated with [static website generators](https://www.staticgen.com/) such as [Jekyll](http://jekyllrb.com/) and [Silex](http://www.silex.me).
+`Jekyll Slideshow` is a Jekyll boilerplate which generates slideshows with your pictures and texts, so that you can embed them in a static websites, i.e. in websites generated with [static website generators](https://www.staticgen.com/) such as [Jekyll](http://jekyllrb.com/) and [Silex](http://www.silex.me).
 
-You can use Github to edit slideshows and upload pictures, Github Pages will automatically generate your slideshows and host it online for free. It is not a Jekyll plug-in but a set of layouts and collection. 
+You can use Github to edit your slides and upload pictures, Github Pages will automatically generate your slideshows and publish it online for free. It is not a Jekyll plug-in but a set of layouts and collection. 
 
 [Here is a demo](http://lexoyo.me/jekyll-slideshow/).
 
