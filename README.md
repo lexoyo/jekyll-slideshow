@@ -36,6 +36,7 @@ In the meta data of a slideshow's `.md` file, you can use these params, which co
 * pauseOnHover
 * controls
 * pager
+* adaptiveHeight
 
 You can also style and animate the elements on the slides with the "style" property in the front matter data
 
