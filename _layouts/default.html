@@ -1,8 +1,12 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>{{ page.title }}</title>
-</head>
-<body>
-  {{ content }}
-</body>
+	<head>
+  	{% include head.html %}
+		<link rel="stylesheet" href="{{ "css/main.css" | prepend: site.baseurl }}">
+		<script type="text/javascript" src="{{ "js/main.js" | prepend: site.baseurl }}"></script>
+	</head>
+  <body>
+    {{ content }}
+    {% include footer.html %}
+  </body>
 </html>
