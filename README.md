@@ -14,10 +14,10 @@ At the core of this project there is work from other people:
 ## user guide
 
 1. [Fork this code on github](https://github.com/lexoyo/jekyll-slideshow/fork)
-2. Edit the file `_slides/my-pics1.md` with [Prose](http://prose.io/), add images in the list and save the file
+2. Edit the file `_slides/my-pics1.md` on github and save the file, this will make Github pages build your slideshows
 3. Check the changes on `http://yourgithubusername.github.io/jekyll-slideshow/`
 
-You can make more slideshows by adding `.md` files in `_slides`, [like this one](./_slides/my-pics1.md). The picures can be stored in any folder or sub folder, but when you add it to a slideshow, use a relative path, e.g.
+You can make more slideshows by adding `.md` files in `_slides`, [like this one](./_slides/my-pics1.md). The picures can be stored in any folder or sub folder, but do not forget to add it to a slideshow like in the examples.
 
 ```
 * ![A nice pic of mine](my-pics1/pic1.jpg)
