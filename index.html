@@ -11,9 +11,9 @@ title: Your galeries
 		<iframe class="slideshow-iframe" src="{{ site.github.url }}{{ slide.url }}"></iframe>
 		<div class="sub-slideshow">
 			<h1>{{ slide.title }}</h1>
-			<button class="edit"><a href="{{site.github.repository_url}}/blob/gh-pages/{{slide.path}}">Edit</a></button>
-			<button class="view"><a href="{{ slide.url }}">View</a></button>
-			<button class="embed"><a href="#">Embed</a></button>
+			<a class="edit" href="{{site.github.repository_url}}/blob/gh-pages/{{slide.path}}">Edit</a>
+			<a class="view" href="{{ site.github.url }}{{ slide.url }}">View</a>
+			<a class="embed" href="#">Embed</a>
 			<div class="embed-pane hidden">
 				<p>To embed this slide in a website, add this code to your page:</p>
 				<input value='&lt;iframe src="{{ site.github.url }}{{ slide.url }}" width="100%" height="100%" style="border: none;"&gt;&lt;/iframe&gt;'></input>

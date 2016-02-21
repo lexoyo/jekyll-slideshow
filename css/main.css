@@ -49,7 +49,7 @@ nav {
 	background-color: #FFF;
 	padding: 10px;
 }
-.sub-slideshow button {
+.sub-slideshow a {
 	background: transparent none repeat scroll 0% 0%;
 	border: medium none;
 	padding: 0;
@@ -61,7 +61,7 @@ nav {
 	font-weight: normal;
 	margin-top: 0;
 }
-.sub-slideshow button a {
+.sub-slideshow a {
 	color: #000;
 }
 .embed-pane.hidden {
