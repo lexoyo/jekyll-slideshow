@@ -1,3 +1,5 @@
+> **this is not maintained**
+
 # Jekyll Slideshow
 
 `Jekyll Slideshow` is a Jekyll boilerplate which generates slideshows with your pictures and texts, so that you can embed them in a static websites, i.e. in websites generated with [static website generators](https://www.staticgen.com/) such as [Jekyll](http://jekyllrb.com/) and [Silex](http://www.silex.me).
